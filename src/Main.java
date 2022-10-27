@@ -20,5 +20,12 @@ public class Main {
         if (schoolStudentAge >= 24) {
             System.out.println("Человек окончил университет и ему пора искать первую работу.");
         }
+        int trainCapacity = 102;
+        if (trainCapacity >= 60 && trainCapacity < 102) {
+            System.out.println("Извините, сидячих мест больше нет.");
+        }
+        if (trainCapacity == 102) {
+            System.out.println("Извините, вагон полностью забит.");
+        }
         }
 }
