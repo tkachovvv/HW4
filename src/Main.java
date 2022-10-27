@@ -32,6 +32,24 @@ public class Main {
             System.out.println("Если возраст человека равен " + personsAge + ", то ему пора в университет.");
         } else {
             System.out.println("Если возраст человека равен " + personsAge + ", то ему пора на работу.");
+        }int childAge = 16;
+        if (childAge <5) {
+            System.out.println("Ребенку нельзя быть на аттракционе.");
+        } else if (childAge >=5 && childAge <14) {
+            System.out.println("Ребенку нельзя быть на аттракционе без сопровождения взрослых.");
+        } else {
+            System.out.println("Ребенку можно быть на аттракционе без сопровождения взрослых.");
         }
+        int one = 17;
+        int two = 85;
+        int three = 84;
+        if (one > two && one > three) {
+            System.out.println("Самое большое число: " + one);
+        }else if (two > one && two > three) {
+            System.out.println("Самое большое число: " + two);
+        }else if (three > two && three > one) {
+            System.out.println("Самое большое число: " + three);
+        }
+
     }
 }
